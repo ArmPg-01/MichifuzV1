@@ -119,7 +119,7 @@ const handler = async (m, { conn, args, command, usedPrefix }) => {
 };
 
 handler.command =
-  /^(8vs8|vs8)$/i;
+  /^(clan|guerra)$/i;
 export default handler;
 
 const instagramDownload = async (url) => {
