@@ -7,9 +7,7 @@ let handler = async(m, { isOwner, isAdmin, conn, text, participants, args, comma
   let oi = `_*Don Michifuz*_
   
    ${pesan}`
-  let teks = `━━━━━━━━━━━━━━━━━━━━
-   ${oi}\n\n EY DESPIERTEN
-   ━━━━━━━━━━━━━━━━━━━━\n`
+  let teks = ` Mensaje: ${oi}EY DESPIERTEN\n`
   for (let mem of participants) {
   teks += `⚜️ @${mem.id.split('@')[0]}\n`}
   teks += `ㅤㅤㅤㅤ@ Michifuz`
